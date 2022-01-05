@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="tests"  thread-count="3" >
+<parameter name="browser" value="chrome"/>
+  <test name="Testwithchrome">
+    <classes>
+ 
+      <class name="tests.UserRegiserationwithGrid"/>
+     </classes>
+  </test> 
+  
+  	<test name="Firefox Regression Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="tests.UserRegiserationwithGrid" />
+		</classes>
+	</test>
+	
+	
+	
+  
+    
+</suite> <!-- Suite -->

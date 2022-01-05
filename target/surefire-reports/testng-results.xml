@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-31T12:54:04Z" name="Surefire suite" finished-at="2021-12-31T12:55:08Z" duration-ms="64633">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@dbd940d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestBase@71d15f18]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-31T12:54:04Z" name="Surefire test" finished-at="2021-12-31T12:55:08Z" duration-ms="64633">
+      <class name="tests.TestBase">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.TestBase@71d15f18]" started-at="2021-12-31T12:55:08Z" name="setUpClass" finished-at="2021-12-31T12:55:08Z" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@483b0690]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.TestBase@71d15f18]" started-at="2021-12-31T12:55:08Z" name="tearDownClass" finished-at="2021-12-31T12:55:08Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.TestBase -->
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:53:45Z" name="startDriver" finished-at="2021-12-31T12:54:04Z" duration-ms="18182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:54:04Z" name="setUpClass" finished-at="2021-12-31T12:54:05Z" duration-ms="1308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@483b0690]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:54:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-31T12:54:25Z" duration-ms="20130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Registeration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user can register]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:54:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-31T12:54:43Z" duration-ms="17879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Registeration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user can register]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:54:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-31T12:54:59Z" duration-ms="16068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Register with invalid insuccesful"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user can register]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:54:59Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-31T12:55:07Z" duration-ms="8294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Register with invalid insuccesful"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user can register]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:55:07Z" name="tearDownClass" finished-at="2021-12-31T12:55:08Z" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Runner.TestRunner@dbd940d]" started-at="2021-12-31T12:55:08Z" name="quitDriver" finished-at="2021-12-31T12:55:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
